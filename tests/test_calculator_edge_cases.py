@@ -33,4 +33,4 @@ def test_load_without_config(monkeypatch):
 
     calc.config = None
 
-    calc.load_history()  # should not crash
+    calc.load_history() 
